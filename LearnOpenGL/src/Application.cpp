@@ -75,7 +75,7 @@ int main()
 
 	// uncomment this call to draw in wireframe polygons.
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-
+	float offset = 0.5f;
 	// render loop
 	// -----------
 	while (!glfwWindowShouldClose(window))
@@ -92,6 +92,7 @@ int main()
 		// draw
 		// ----
 		ourShader.use();
+		ourShader.setFloat("xOffset", offset);
 		glBindVertexArray(VAO);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 
