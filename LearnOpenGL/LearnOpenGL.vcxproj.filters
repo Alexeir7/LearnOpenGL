@@ -475,6 +475,9 @@
     <Image Include="res\textures\wall.jpg">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\vendor\glm\detail\func_common.inl">
