@@ -467,6 +467,9 @@
     <ClInclude Include="src\vendor\glm\vector_relational.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\textures\container.jpg">
