@@ -818,5 +818,6 @@
     </None>
     <None Include="res\shaders\vertex.shader" />
     <None Include="res\shaders\fragment.shader" />
+    <None Include="res\shaders\lamp.fs" />
   </ItemGroup>
 </Project>
